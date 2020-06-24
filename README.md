@@ -1,5 +1,7 @@
 # 各自に異なる添付ファイルを送付する。
 Googel Apps Script
+## 注意
+`Browser.msgBox`は非推奨メソッドの為、`ui.alert`を使うべきだそうだ。
 ## 作成経緯
 
 コロナ禍により、remote授業となった。<br>
